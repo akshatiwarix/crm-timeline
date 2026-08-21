@@ -1,0 +1,11 @@
+accountId,type,timestamp,text,fromStage,toStage
+northwind-labs,Call,2026-06-01T10:00:00.000Z,Intro call with their VP Eng.,,
+northwind-labs,call,2026-06-01T10:03:00.000Z,Intro call with their VP Eng,,
+northwind-labs,Email,06/03/2026 09:15,Sent follow-up deck.,,
+northwind-labs,Meeting,2026-06-10,Kickoff meeting with the buying committee.,,
+northwind-labs,Stage Change,2026-06-10 11:00,,Discovery,Qualification
+northwind-labs,Note,,Backfilled from a spreadsheet import - date unknown.,,
+northwind-labs,Phone Call,21-08-2026 15:00,Re-engaging after a quiet stretch.,,
+,Call,2026-06-11,Orphan row missing an account.,,
+northwind-labs,Call,2026-06-12T09:00:00.000Z,too many fields here,extra1,extra2,extra3
+northwind-labs,carrier pigeon,2026-06-13T00:00:00.000Z,Unrecognized activity type.,,

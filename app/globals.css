@@ -6,6 +6,18 @@
   --ink: #201d18;
   --ink-dim: #6f6a5f;
   --line: #ded8ca;
+  --line-strong: #b7ae9a;
+
+  --type-call: #2f5fa8;
+  --type-call-dim: #dbe6f5;
+  --type-email: #6c4ab6;
+  --type-email-dim: #e6ddf5;
+  --type-meeting: #1f7a5c;
+  --type-meeting-dim: #d3ede2;
+  --type-note: #a3791f;
+  --type-note-dim: #f2e3bd;
+  --type-stage: #b3364a;
+  --type-stage-dim: #f3d7dd;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,6 +27,18 @@
     --ink: #f0ebe0;
     --ink-dim: #a89f8c;
     --line: #383226;
+    --line-strong: #4f4630;
+
+    --type-call: #8fb4e8;
+    --type-call-dim: #1c2c46;
+    --type-email: #b79ce8;
+    --type-email-dim: #2c2340;
+    --type-meeting: #7fcbb0;
+    --type-meeting-dim: #163229;
+    --type-note: #d9b563;
+    --type-note-dim: #382c12;
+    --type-stage: #e08fa0;
+    --type-stage-dim: #3a1b22;
   }
 }
 
@@ -24,6 +48,17 @@
   --color-ink: var(--ink);
   --color-ink-dim: var(--ink-dim);
   --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-type-call: var(--type-call);
+  --color-type-call-dim: var(--type-call-dim);
+  --color-type-email: var(--type-email);
+  --color-type-email-dim: var(--type-email-dim);
+  --color-type-meeting: var(--type-meeting);
+  --color-type-meeting-dim: var(--type-meeting-dim);
+  --color-type-note: var(--type-note);
+  --color-type-note-dim: var(--type-note-dim);
+  --color-type-stage: var(--type-stage);
+  --color-type-stage-dim: var(--type-stage-dim);
   --font-display: var(--font-fraunces);
   --font-sans: var(--font-plex-sans);
   --font-mono: var(--font-plex-mono);
