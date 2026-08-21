@@ -94,4 +94,14 @@ describe("parseCsvActivities", () => {
     expect(activities).toEqual([]);
     expect(errors).toEqual([{ row: 1, reason: "expected 6 columns, got 3" }]);
   });
+
+  it("tracks each surviving activity's original row number, even when earlier rows were skipped", () => {
+    // Row 1 is skipped (missing accountId), so activities[0] is really row 2 —
+    // a caller indexing normalize-stage errors against `activities` must remap
+    // through rowNumbers, not assume position === original row.
+    const csv = `${HEADER}\n,Call,2026-08-21,text,,\nacct-2,Email,2026-08-22,text,,\n`;
+    const { activities, rowNumbers } = parseCsvActivities(csv);
+    expect(activities).toHaveLength(1);
+    expect(rowNumbers).toEqual([2]);
+  });
 });

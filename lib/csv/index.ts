@@ -67,7 +67,14 @@ export function tokenizeCsv(text: string): string[][] {
 const REQUIRED_HEADERS = ["accountId", "type", "timestamp", "text"] as const;
 
 export type CsvRowError = { row: number; reason: string };
-export type CsvParseResult = { activities: RawActivity[]; errors: CsvRowError[] };
+export type CsvParseResult = {
+  activities: RawActivity[];
+  /** rowNumbers[i] is the original 1-indexed data row `activities[i]` came from — activities
+   *  shift down when earlier rows are skipped, so this is what lets a later normalize-stage
+   *  error (indexed against `activities`, not the file) get reported against the right line. */
+  rowNumbers: number[];
+  errors: CsvRowError[];
+};
 
 /**
  * Parses a CSV upload into RawActivity rows plus a report of what was
@@ -79,7 +86,7 @@ export type CsvParseResult = { activities: RawActivity[]; errors: CsvRowError[] 
 export function parseCsvActivities(text: string): CsvParseResult {
   const rows = tokenizeCsv(text);
   if (rows.length === 0) {
-    return { activities: [], errors: [{ row: 0, reason: "file is empty" }] };
+    return { activities: [], rowNumbers: [], errors: [{ row: 0, reason: "file is empty" }] };
   }
 
   const header = rows[0]!.map((h) => h.trim());
@@ -90,6 +97,7 @@ export function parseCsvActivities(text: string): CsvParseResult {
   if (missing.length > 0) {
     return {
       activities: [],
+      rowNumbers: [],
       errors: [{ row: 0, reason: `missing required column(s): ${missing.join(", ")}` }],
     };
   }
@@ -104,6 +112,7 @@ export function parseCsvActivities(text: string): CsvParseResult {
   };
 
   const activities: RawActivity[] = [];
+  const rowNumbers: number[] = [];
   const errors: CsvRowError[] = [];
 
   rows.slice(1).forEach((fields, i) => {
@@ -135,7 +144,8 @@ export function parseCsvActivities(text: string): CsvParseResult {
       ...(fromStage ? { fromStage } : {}),
       ...(toStage ? { toStage } : {}),
     });
+    rowNumbers.push(rowNumber);
   });
 
-  return { activities, errors };
+  return { activities, rowNumbers, errors };
 }

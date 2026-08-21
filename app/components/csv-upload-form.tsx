@@ -19,7 +19,7 @@ export function CsvUploadForm() {
     setFileName(name);
     setLoadError(null);
 
-    const { activities, errors: csvErrors } = parseCsvActivities(text);
+    const { activities, rowNumbers, errors: csvErrors } = parseCsvActivities(text);
     if (activities.length === 0 && csvErrors.some((e) => e.row === 0)) {
       setSkipped(csvErrors.map((e) => ({ ...e, source: "csv" as const })));
       setResult(null);
@@ -27,10 +27,19 @@ export function CsvUploadForm() {
     }
 
     const pipelineResult = runPipeline(activities);
-    setSkipped([
+    const combined: SkippedRow[] = [
       ...csvErrors.map((e) => ({ ...e, source: "csv" as const })),
-      ...pipelineResult.errors.map((e) => ({ ...e, source: "normalize" as const })),
-    ]);
+      // pipelineResult.errors are indexed against `activities`, which already
+      // has skipped rows removed — remap back through rowNumbers so a
+      // normalize failure reports the CSV line it actually came from.
+      ...pipelineResult.errors.map((e) => ({
+        row: rowNumbers[e.row - 1] ?? e.row,
+        reason: e.reason,
+        source: "normalize" as const,
+      })),
+    ];
+    combined.sort((a, b) => a.row - b.row);
+    setSkipped(combined);
     setResult(pipelineResult);
   }
 
