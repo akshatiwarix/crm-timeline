@@ -1,0 +1,42 @@
+[
+  {
+    "id": "anchor-freight",
+    "name": "Anchor Freight Co.",
+    "industry": "Logistics"
+  },
+  {
+    "id": "bramble-analytics",
+    "name": "Bramble Analytics",
+    "industry": "Data & Analytics"
+  },
+  {
+    "id": "cedarline-robotics",
+    "name": "Cedarline Robotics",
+    "industry": "Robotics"
+  },
+  {
+    "id": "dune-systems",
+    "name": "Dune Systems",
+    "industry": "Cloud Infrastructure"
+  },
+  {
+    "id": "emberwood-health",
+    "name": "Emberwood Health",
+    "industry": "Healthcare"
+  },
+  {
+    "id": "fenwick-root",
+    "name": "Fenwick & Root",
+    "industry": "Legal Tech"
+  },
+  {
+    "id": "glasswing-media",
+    "name": "Glasswing Media",
+    "industry": "AdTech"
+  },
+  {
+    "id": "harlow-biotech",
+    "name": "Harlow Biotech",
+    "industry": "Biotech"
+  }
+]

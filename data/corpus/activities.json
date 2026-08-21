@@ -1,0 +1,910 @@
+[
+  {
+    "accountId": "anchor-freight",
+    "type": "Phone Call",
+    "timestamp": "30-12-2025 14:00",
+    "text": "Follow-up call to confirm budget and timeline."
+  },
+  {
+    "accountId": "anchor-freight",
+    "type": "phone call",
+    "timestamp": "2026-01-09",
+    "text": "Follow-up call to confirm budget and timeline."
+  },
+  {
+    "accountId": "anchor-freight",
+    "type": "Sent Email",
+    "timestamp": "01/13/2026 09:00",
+    "text": "Replied with answers to their security questionnaire."
+  },
+  {
+    "accountId": "anchor-freight",
+    "type": "Email",
+    "timestamp": "2026-01-15T21:00:00.000Z",
+    "text": "Checking in — haven't heard back in a week."
+  },
+  {
+    "accountId": "anchor-freight",
+    "type": "e-mail",
+    "timestamp": "1768784400000",
+    "text": "Follow-up email after the demo."
+  },
+  {
+    "accountId": "anchor-freight",
+    "type": "Call",
+    "timestamp": "27-01-2026 20:00",
+    "text": "Call went to voicemail, left a message."
+  },
+  {
+    "accountId": "anchor-freight",
+    "type": "Stage Change",
+    "timestamp": "01/27/2026 20:00",
+    "text": "",
+    "fromStage": "Discovery",
+    "toStage": "Qualification"
+  },
+  {
+    "accountId": "anchor-freight",
+    "type": "email",
+    "timestamp": "30-01-2026 21:00",
+    "text": "Sent contract redline for legal review."
+  },
+  {
+    "accountId": "anchor-freight",
+    "type": "Notes",
+    "timestamp": "02/04/2026 13:00",
+    "text": "Champion mentioned budget is approved for Q3."
+  },
+  {
+    "accountId": "anchor-freight",
+    "type": "phone call",
+    "timestamp": "2026-02-12T21:00:00.000Z",
+    "text": "Follow-up call to confirm budget and timeline."
+  },
+  {
+    "accountId": "anchor-freight",
+    "type": "e-mail",
+    "timestamp": "15-02-2026 09:00",
+    "text": "Sent contract redline for legal review."
+  },
+  {
+    "accountId": "anchor-freight",
+    "type": "Notes",
+    "timestamp": "2026-02-24T22:00:00.000Z",
+    "text": "Champion mentioned budget is approved for Q3."
+  },
+  {
+    "accountId": "anchor-freight",
+    "type": "Stage Change",
+    "timestamp": "2026-02-25T00:00:00.000Z",
+    "text": "",
+    "fromStage": "Qualification",
+    "toStage": "Proposal"
+  },
+  {
+    "accountId": "anchor-freight",
+    "type": "meeting",
+    "timestamp": "2026-03-05",
+    "text": "Onboarding planning session."
+  },
+  {
+    "accountId": "anchor-freight",
+    "type": "Mtg",
+    "timestamp": "10-03-2026 15:00",
+    "text": "Kickoff meeting with the full buying committee."
+  },
+  {
+    "accountId": "anchor-freight",
+    "type": "Meeting",
+    "timestamp": "03/16/2026 00:00",
+    "text": "Onboarding planning session."
+  },
+  {
+    "accountId": "anchor-freight",
+    "type": "note ",
+    "timestamp": "2026-03-25T01:00:00.000Z",
+    "text": "Competitor also in the mix — need a differentiation angle."
+  },
+  {
+    "accountId": "anchor-freight",
+    "type": "Phone Call",
+    "timestamp": "03/28/2026 14:00",
+    "text": "Follow-up call to confirm budget and timeline."
+  },
+  {
+    "accountId": "anchor-freight",
+    "type": "STAGE_CHANGE",
+    "timestamp": "03/28/2026 14:00",
+    "text": "",
+    "fromStage": "Proposal",
+    "toStage": "Negotiation"
+  },
+  {
+    "accountId": "anchor-freight",
+    "type": "phone call",
+    "timestamp": "01-04-2026 03:00",
+    "text": "Quick check-in, no major updates."
+  },
+  {
+    "accountId": "bramble-analytics",
+    "type": "email",
+    "timestamp": "2026-01-03T00:00:00.000Z",
+    "text": "Follow-up email after the demo."
+  },
+  {
+    "accountId": "bramble-analytics",
+    "type": "CALL",
+    "timestamp": "2026-01-09T11:00:00.000Z",
+    "text": "Discovery call — walked through current workflow and pain points."
+  },
+  {
+    "accountId": "bramble-analytics",
+    "type": "MEETING",
+    "timestamp": "2026-01-18T16:00:00.000Z",
+    "text": "Renewal discussion."
+  },
+  {
+    "accountId": "bramble-analytics",
+    "type": "Meeting",
+    "timestamp": "01/27/2026 19:00",
+    "text": "Onboarding planning session."
+  },
+  {
+    "accountId": "bramble-analytics",
+    "type": "Sent Email",
+    "timestamp": "01/30/2026 21:00",
+    "text": "Sent contract redline for legal review."
+  },
+  {
+    "accountId": "bramble-analytics",
+    "type": "MEETING",
+    "timestamp": "02/02/2026 01:00",
+    "text": "Renewal discussion."
+  },
+  {
+    "accountId": "bramble-analytics",
+    "type": "Stage changed",
+    "timestamp": "02-02-2026 01:00",
+    "text": "",
+    "fromStage": "Discovery",
+    "toStage": "Qualification"
+  },
+  {
+    "accountId": "bramble-analytics",
+    "type": "MEETING",
+    "timestamp": "1770235200000",
+    "text": "Onboarding planning session."
+  },
+  {
+    "accountId": "bramble-analytics",
+    "type": "Note",
+    "timestamp": "2026-02-12",
+    "text": "Champion mentioned budget is approved for Q3."
+  },
+  {
+    "accountId": "bramble-analytics",
+    "type": "meeting",
+    "timestamp": "02/20/2026 14:00",
+    "text": "Renewal discussion."
+  },
+  {
+    "accountId": "bramble-analytics",
+    "type": "MEETING",
+    "timestamp": "26-02-2026 21:00",
+    "text": "Renewal discussion."
+  },
+  {
+    "accountId": "bramble-analytics",
+    "type": "Meeting",
+    "timestamp": "1772917200000",
+    "text": "Onboarding planning session."
+  },
+  {
+    "accountId": "bramble-analytics",
+    "type": "Stage changed",
+    "timestamp": "2026-03-07",
+    "text": "",
+    "fromStage": "Qualification",
+    "toStage": "Proposal"
+  },
+  {
+    "accountId": "bramble-analytics",
+    "type": "NOTE",
+    "timestamp": "1773381600000",
+    "text": "Economic buyer is the VP, not the director."
+  },
+  {
+    "accountId": "bramble-analytics",
+    "type": "email",
+    "timestamp": "03/20/2026 04:00",
+    "text": "Follow-up email after the demo."
+  },
+  {
+    "accountId": "bramble-analytics",
+    "type": "call",
+    "timestamp": "03/26/2026 12:00",
+    "text": "Quick check-in, no major updates."
+  },
+  {
+    "accountId": "bramble-analytics",
+    "type": "EMAIL",
+    "timestamp": "2026-03-31",
+    "text": "Sent contract redline for legal review."
+  },
+  {
+    "accountId": "bramble-analytics",
+    "type": "Sent Email",
+    "timestamp": "1775599200000",
+    "text": "Follow-up email after the demo."
+  },
+  {
+    "accountId": "bramble-analytics",
+    "type": "stage_change",
+    "timestamp": "2026-04-08",
+    "text": "",
+    "fromStage": "Proposal",
+    "toStage": "Negotiation"
+  },
+  {
+    "accountId": "bramble-analytics",
+    "type": "Meeting ",
+    "timestamp": "2026-04-15",
+    "text": "Onboarding planning session."
+  },
+  {
+    "accountId": "bramble-analytics",
+    "type": "MEETING",
+    "timestamp": "19-04-2026 04:00",
+    "text": "Kickoff meeting with the full buying committee."
+  },
+  {
+    "accountId": "cedarline-robotics",
+    "type": "phone call",
+    "timestamp": "07-12-2025 14:00",
+    "text": "Follow-up call to confirm budget and timeline."
+  },
+  {
+    "accountId": "cedarline-robotics",
+    "type": "Email",
+    "timestamp": "12/14/2025 07:00",
+    "text": "Replied with answers to their security questionnaire."
+  },
+  {
+    "accountId": "cedarline-robotics",
+    "type": "email",
+    "timestamp": "1766419200000",
+    "text": "Sent pricing sheet and case study."
+  },
+  {
+    "accountId": "cedarline-robotics",
+    "type": "Meeting",
+    "timestamp": "1766750400000",
+    "text": "Onboarding planning session."
+  },
+  {
+    "accountId": "cedarline-robotics",
+    "type": "Meeting ",
+    "timestamp": "2026-01-03",
+    "text": "Technical deep-dive with their platform team."
+  },
+  {
+    "accountId": "cedarline-robotics",
+    "type": "Call",
+    "timestamp": "2026-01-08",
+    "text": "Call went to voicemail, left a message."
+  },
+  {
+    "accountId": "cedarline-robotics",
+    "type": "STAGE_CHANGE",
+    "timestamp": "2026-01-08",
+    "text": "",
+    "fromStage": "Discovery",
+    "toStage": "Qualification"
+  },
+  {
+    "accountId": "cedarline-robotics",
+    "type": "email",
+    "timestamp": "2026-01-10",
+    "text": "Follow-up email after the demo."
+  },
+  {
+    "accountId": "cedarline-robotics",
+    "type": "Meeting",
+    "timestamp": "19-01-2026 07:00",
+    "text": "Technical deep-dive with their platform team."
+  },
+  {
+    "accountId": "cedarline-robotics",
+    "type": "meeting",
+    "timestamp": "2026-01-21T11:00:00.000Z",
+    "text": "Onboarding planning session."
+  },
+  {
+    "accountId": "cedarline-robotics",
+    "type": "Phone Call",
+    "timestamp": "01/25/2026 12:00",
+    "text": "Technical call with their eng team about integration."
+  },
+  {
+    "accountId": "dune-systems",
+    "type": "note",
+    "timestamp": "1767661200000",
+    "text": "Competitor also in the mix — need a differentiation angle."
+  },
+  {
+    "accountId": "dune-systems",
+    "type": "call",
+    "timestamp": "2026-01-15",
+    "text": "Call went to voicemail, left a message."
+  },
+  {
+    "accountId": "dune-systems",
+    "type": "note ",
+    "timestamp": "2026-01-20T05:00:00.000Z",
+    "text": "Competitor also in the mix — need a differentiation angle."
+  },
+  {
+    "accountId": "dune-systems",
+    "type": "phone call",
+    "timestamp": "2026-01-25T14:00:00.000Z",
+    "text": "Technical call with their eng team about integration."
+  },
+  {
+    "accountId": "dune-systems",
+    "type": "note ",
+    "timestamp": "01/27/2026 23:00",
+    "text": "Flagged: security review is the long pole."
+  },
+  {
+    "accountId": "dune-systems",
+    "type": "Mtg",
+    "timestamp": "2026-02-05",
+    "text": "Technical deep-dive with their platform team."
+  },
+  {
+    "accountId": "dune-systems",
+    "type": "Stage Change",
+    "timestamp": "05-02-2026 04:00",
+    "text": "",
+    "fromStage": "Discovery",
+    "toStage": "Qualification"
+  },
+  {
+    "accountId": "dune-systems",
+    "type": "Meeting ",
+    "timestamp": "1770663600000",
+    "text": "Onboarding planning session."
+  },
+  {
+    "accountId": "dune-systems",
+    "type": "Meeting ",
+    "timestamp": "1771315200000",
+    "text": "Executive review — champion presented internally."
+  },
+  {
+    "accountId": "dune-systems",
+    "type": "Notes",
+    "timestamp": "2026-02-24",
+    "text": "Champion mentioned budget is approved for Q3."
+  },
+  {
+    "accountId": "dune-systems",
+    "type": "MEETING",
+    "timestamp": "04/18/2026 23:00",
+    "text": "Technical deep-dive with their platform team."
+  },
+  {
+    "accountId": "dune-systems",
+    "type": "EMAIL",
+    "timestamp": "1777165200000",
+    "text": "Replied with answers to their security questionnaire."
+  },
+  {
+    "accountId": "dune-systems",
+    "type": "stage-change",
+    "timestamp": "26-04-2026 01:00",
+    "text": "",
+    "fromStage": "Qualification",
+    "toStage": "Proposal"
+  },
+  {
+    "accountId": "dune-systems",
+    "type": "email",
+    "timestamp": "1777982400000",
+    "text": "Checking in — haven't heard back in a week."
+  },
+  {
+    "accountId": "dune-systems",
+    "type": "Meeting ",
+    "timestamp": "2026-05-10",
+    "text": "Technical deep-dive with their platform team."
+  },
+  {
+    "accountId": "dune-systems",
+    "type": "e-mail",
+    "timestamp": "05/17/2026 14:00",
+    "text": "Sent contract redline for legal review."
+  },
+  {
+    "accountId": "dune-systems",
+    "type": "Notes",
+    "timestamp": "1779454800000",
+    "text": "Champion mentioned budget is approved for Q3."
+  },
+  {
+    "accountId": "dune-systems",
+    "type": "note ",
+    "timestamp": "30-05-2026 10:00",
+    "text": "Champion mentioned budget is approved for Q3."
+  },
+  {
+    "accountId": "dune-systems",
+    "type": "Stage Change",
+    "timestamp": "2026-05-30T10:00:00.000Z",
+    "text": "",
+    "fromStage": "Proposal",
+    "toStage": "Negotiation"
+  },
+  {
+    "accountId": "dune-systems",
+    "type": "NOTE",
+    "timestamp": "02-06-2026 15:00",
+    "text": "Economic buyer is the VP, not the director."
+  },
+  {
+    "accountId": "dune-systems",
+    "type": "email",
+    "timestamp": "2026-06-11T10:00:00.000Z",
+    "text": "Sent contract redline for legal review."
+  },
+  {
+    "accountId": "emberwood-health",
+    "type": "phone call",
+    "timestamp": "23-03-2026 01:00",
+    "text": "Technical call with their eng team about integration."
+  },
+  {
+    "accountId": "emberwood-health",
+    "type": "Meeting",
+    "timestamp": "03/26/2026 11:00",
+    "text": "Kickoff meeting with the full buying committee."
+  },
+  {
+    "accountId": "emberwood-health",
+    "type": "CALL",
+    "timestamp": "04/02/2026 20:00",
+    "text": "Discovery call — walked through current workflow and pain points."
+  },
+  {
+    "accountId": "emberwood-health",
+    "type": "Note",
+    "timestamp": "2026-04-08T04:00:00.000Z",
+    "text": "Competitor also in the mix — need a differentiation angle."
+  },
+  {
+    "accountId": "emberwood-health",
+    "type": "phone call",
+    "timestamp": "2026-04-13",
+    "text": "Discovery call — walked through current workflow and pain points."
+  },
+  {
+    "accountId": "emberwood-health",
+    "type": "note ",
+    "timestamp": "1776560400000",
+    "text": ""
+  },
+  {
+    "accountId": "emberwood-health",
+    "type": "STAGE_CHANGE",
+    "timestamp": "19-04-2026 01:00",
+    "text": "",
+    "fromStage": "Discovery",
+    "toStage": "Qualification"
+  },
+  {
+    "accountId": "emberwood-health",
+    "type": "call",
+    "timestamp": "1777222800000",
+    "text": "Technical call with their eng team about integration."
+  },
+  {
+    "accountId": "emberwood-health",
+    "type": "Email",
+    "timestamp": "05/02/2026 13:00",
+    "text": "Sent contract redline for legal review."
+  },
+  {
+    "accountId": "emberwood-health",
+    "type": "e-mail",
+    "timestamp": "1778403600000",
+    "text": "Sent pricing sheet and case study."
+  },
+  {
+    "accountId": "emberwood-health",
+    "type": "CALL",
+    "timestamp": "2026-05-20",
+    "text": "Call went to voicemail, left a message."
+  },
+  {
+    "accountId": "emberwood-health",
+    "type": "Sent Email",
+    "timestamp": "2026-05-26T16:00:00.000Z",
+    "text": "Checking in — haven't heard back in a week."
+  },
+  {
+    "accountId": "emberwood-health",
+    "type": "Stage Change",
+    "timestamp": "2026-05-26",
+    "text": "",
+    "fromStage": "Qualification",
+    "toStage": "Proposal"
+  },
+  {
+    "accountId": "emberwood-health",
+    "type": "Phone Call",
+    "timestamp": "1780495200000",
+    "text": "Call went to voicemail, left a message."
+  },
+  {
+    "accountId": "emberwood-health",
+    "type": "Sent Email",
+    "timestamp": "2026-06-05",
+    "text": "Sent pricing sheet and case study."
+  },
+  {
+    "accountId": "emberwood-health",
+    "type": "Mtg",
+    "timestamp": "12-06-2026 00:00",
+    "text": "Renewal discussion."
+  },
+  {
+    "accountId": "emberwood-health",
+    "type": "Sent Email",
+    "timestamp": "17-06-2026 13:00",
+    "text": "Checking in — haven't heard back in a week."
+  },
+  {
+    "accountId": "emberwood-health",
+    "type": "Call",
+    "timestamp": "1782050400000",
+    "text": "Discovery call — walked through current workflow and pain points."
+  },
+  {
+    "accountId": "emberwood-health",
+    "type": "stage_change",
+    "timestamp": "21-06-2026 16:00",
+    "text": "",
+    "fromStage": "Proposal",
+    "toStage": "Negotiation"
+  },
+  {
+    "accountId": "emberwood-health",
+    "type": "note",
+    "timestamp": "27-06-2026 13:00",
+    "text": "Flagged: security review is the long pole."
+  },
+  {
+    "accountId": "emberwood-health",
+    "type": "phone call",
+    "timestamp": "2026-07-07T01:00:00.000Z",
+    "text": "Follow-up call to confirm budget and timeline."
+  },
+  {
+    "accountId": "fenwick-root",
+    "type": "Email",
+    "timestamp": "03/18/2026 00:00",
+    "text": "Sent pricing sheet and case study."
+  },
+  {
+    "accountId": "fenwick-root",
+    "type": "note ",
+    "timestamp": "03/24/2026 16:00",
+    "text": "Champion mentioned budget is approved for Q3."
+  },
+  {
+    "accountId": "fenwick-root",
+    "type": "CALL",
+    "timestamp": "2026-03-28T20:00:00.000Z",
+    "text": "Quick check-in, no major updates."
+  },
+  {
+    "accountId": "fenwick-root",
+    "type": "Phone Call",
+    "timestamp": "04/07/2026 08:00",
+    "text": "Follow-up call to confirm budget and timeline."
+  },
+  {
+    "accountId": "fenwick-root",
+    "type": "e-mail",
+    "timestamp": "04/14/2026 20:00",
+    "text": "Sent contract redline for legal review."
+  },
+  {
+    "accountId": "fenwick-root",
+    "type": "e-mail",
+    "timestamp": "2026-04-22",
+    "text": "Sent pricing sheet and case study."
+  },
+  {
+    "accountId": "fenwick-root",
+    "type": "STAGE_CHANGE",
+    "timestamp": "1776866400000",
+    "text": "",
+    "fromStage": "Discovery",
+    "toStage": "Qualification"
+  },
+  {
+    "accountId": "fenwick-root",
+    "type": "Phone Call",
+    "timestamp": "05/01/2026 19:00",
+    "text": "Quick check-in, no major updates."
+  },
+  {
+    "accountId": "fenwick-root",
+    "type": "phone call",
+    "timestamp": "05/04/2026 07:00",
+    "text": "Follow-up call to confirm budget and timeline."
+  },
+  {
+    "accountId": "fenwick-root",
+    "type": "Sent Email",
+    "timestamp": "2026-05-13T14:00:00.000Z",
+    "text": "Replied with answers to their security questionnaire."
+  },
+  {
+    "accountId": "fenwick-root",
+    "type": "Call",
+    "timestamp": "1779361200000",
+    "text": "Technical call with their eng team about integration."
+  },
+  {
+    "accountId": "fenwick-root",
+    "type": "phone call",
+    "timestamp": "2026-05-31",
+    "text": "Quick check-in, no major updates."
+  },
+  {
+    "accountId": "fenwick-root",
+    "type": "Stage Change",
+    "timestamp": "2026-05-31T03:00:00.000Z",
+    "text": "",
+    "fromStage": "Qualification",
+    "toStage": "Proposal"
+  },
+  {
+    "accountId": "fenwick-root",
+    "type": "EMAIL",
+    "timestamp": "02-06-2026 22:00",
+    "text": "Sent contract redline for legal review."
+  },
+  {
+    "accountId": "fenwick-root",
+    "type": "Note",
+    "timestamp": "2026-06-08",
+    "text": "Economic buyer is the VP, not the director."
+  },
+  {
+    "accountId": "fenwick-root",
+    "type": "Phone Call",
+    "timestamp": "2026-06-18T05:00:00.000Z",
+    "text": "Quick check-in, no major updates."
+  },
+  {
+    "accountId": "glasswing-media",
+    "type": "Sent Email",
+    "timestamp": "1765573200000",
+    "text": "Sent pricing sheet and case study."
+  },
+  {
+    "accountId": "glasswing-media",
+    "type": "NOTE",
+    "timestamp": "17-12-2025 06:00",
+    "text": "Competitor also in the mix — need a differentiation angle."
+  },
+  {
+    "accountId": "glasswing-media",
+    "type": "EMAIL",
+    "timestamp": "1766563200000",
+    "text": "Replied with answers to their security questionnaire."
+  },
+  {
+    "accountId": "glasswing-media",
+    "type": "Notes",
+    "timestamp": "2025-12-31T11:00:00.000Z",
+    "text": "Competitor also in the mix — need a differentiation angle."
+  },
+  {
+    "accountId": "glasswing-media",
+    "type": "Meeting ",
+    "timestamp": "01/06/2026 10:00",
+    "text": "Technical deep-dive with their platform team."
+  },
+  {
+    "accountId": "glasswing-media",
+    "type": "Email",
+    "timestamp": "16-01-2026 03:00",
+    "text": "Sent pricing sheet and case study."
+  },
+  {
+    "accountId": "glasswing-media",
+    "type": "STAGE_CHANGE",
+    "timestamp": "2026-01-16T05:00:00.000Z",
+    "text": "",
+    "fromStage": "Discovery",
+    "toStage": "Qualification"
+  },
+  {
+    "accountId": "glasswing-media",
+    "type": "call",
+    "timestamp": "2026-01-23",
+    "text": "Quick check-in, no major updates."
+  },
+  {
+    "accountId": "glasswing-media",
+    "type": "Meeting ",
+    "timestamp": "1769925600000",
+    "text": "Renewal discussion."
+  },
+  {
+    "accountId": "glasswing-media",
+    "type": "Note",
+    "timestamp": "2026-02-04T19:00:00.000Z",
+    "text": "Flagged: security review is the long pole."
+  },
+  {
+    "accountId": "glasswing-media",
+    "type": "Note",
+    "timestamp": "2026-02-07",
+    "text": ""
+  },
+  {
+    "accountId": "glasswing-media",
+    "type": "Meeting ",
+    "timestamp": "1771099200000",
+    "text": "Kickoff meeting with the full buying committee."
+  },
+  {
+    "accountId": "glasswing-media",
+    "type": "stage-change",
+    "timestamp": "14-02-2026 20:00",
+    "text": "",
+    "fromStage": "Qualification",
+    "toStage": "Proposal"
+  },
+  {
+    "accountId": "glasswing-media",
+    "type": "Note",
+    "timestamp": "2026-02-22T04:00:00.000Z",
+    "text": "Champion mentioned budget is approved for Q3."
+  },
+  {
+    "accountId": "glasswing-media",
+    "type": "Mtg",
+    "timestamp": "25-02-2026 22:00",
+    "text": "Executive review — champion presented internally."
+  },
+  {
+    "accountId": "harlow-biotech",
+    "type": "Meeting ",
+    "timestamp": "2026-03-17T07:00:00.000Z",
+    "text": "Kickoff meeting with the full buying committee."
+  },
+  {
+    "accountId": "harlow-biotech",
+    "type": "Notes",
+    "timestamp": "2026-03-20T23:00:00.000Z",
+    "text": "Flagged: security review is the long pole."
+  },
+  {
+    "accountId": "harlow-biotech",
+    "type": "call",
+    "timestamp": "03/28/2026 01:00",
+    "text": "Follow-up call to confirm budget and timeline."
+  },
+  {
+    "accountId": "harlow-biotech",
+    "type": "Phone Call",
+    "timestamp": "30-03-2026 07:00",
+    "text": "Call went to voicemail, left a message."
+  },
+  {
+    "accountId": "harlow-biotech",
+    "type": "Meeting ",
+    "timestamp": "1775145600000",
+    "text": "Technical deep-dive with their platform team."
+  },
+  {
+    "accountId": "harlow-biotech",
+    "type": "CALL",
+    "timestamp": "2026-04-06T01:00:00.000Z",
+    "text": "Discovery call — walked through current workflow and pain points."
+  },
+  {
+    "accountId": "harlow-biotech",
+    "type": "Stage changed",
+    "timestamp": "2026-04-06",
+    "text": "",
+    "fromStage": "Discovery",
+    "toStage": "Qualification"
+  },
+  {
+    "accountId": "harlow-biotech",
+    "type": "meeting",
+    "timestamp": "04/10/2026 09:00",
+    "text": "Technical deep-dive with their platform team."
+  },
+  {
+    "accountId": "harlow-biotech",
+    "type": "call",
+    "timestamp": "04/16/2026 13:00",
+    "text": "Discovery call — walked through current workflow and pain points."
+  },
+  {
+    "accountId": "harlow-biotech",
+    "type": "Note",
+    "timestamp": "1776542400000",
+    "text": "Flagged: security review is the long pole."
+  },
+  {
+    "accountId": "harlow-biotech",
+    "type": "Email",
+    "timestamp": "04/21/2026 13:00",
+    "text": "Replied with answers to their security questionnaire."
+  },
+  {
+    "accountId": "harlow-biotech",
+    "type": "note",
+    "timestamp": "2026-04-25T11:00:00.000Z",
+    "text": ""
+  },
+  {
+    "accountId": "harlow-biotech",
+    "type": "STAGE_CHANGE",
+    "timestamp": "25-04-2026 13:00",
+    "text": "",
+    "fromStage": "Qualification",
+    "toStage": "Proposal"
+  },
+  {
+    "accountId": "harlow-biotech",
+    "type": "phone call",
+    "timestamp": "1777323600000",
+    "text": "Follow-up call to confirm budget and timeline."
+  },
+  {
+    "accountId": "harlow-biotech",
+    "type": "Meeting ",
+    "timestamp": "1778047200000",
+    "text": "Kickoff meeting with the full buying committee."
+  },
+  {
+    "accountId": "harlow-biotech",
+    "type": "NOTE",
+    "timestamp": "12-05-2026 00:00",
+    "text": ""
+  },
+  {
+    "accountId": "harlow-biotech",
+    "type": "Notes",
+    "timestamp": "2026-05-15",
+    "text": "Economic buyer is the VP, not the director."
+  },
+  {
+    "accountId": "bramble-analytics",
+    "type": "call",
+    "timestamp": "2026-07-12T00:00:00.000Z",
+    "text": "Discovery call with VP Eng — walked through current workflow and pain points."
+  },
+  {
+    "accountId": "bramble-analytics",
+    "type": "Phone Call",
+    "timestamp": "2026-07-12T00:03:00.000Z",
+    "text": "Discovery call with VP Eng - walked through current workflow and pain points"
+  },
+  {
+    "accountId": "emberwood-health",
+    "type": "note",
+    "timestamp": "",
+    "text": "Backfilled from a spreadsheet import — original date unknown."
+  }
+]

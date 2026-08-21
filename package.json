@@ -10,7 +10,7 @@
     "typecheck": "next typegen && tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
-    "corpus": "vite-node -c vitest.config.mts data/generate.ts"
+    "corpus": "vite-node -c vitest.config.mts scripts/corpus.mts"
   },
   "dependencies": {
     "next": "16.3.1",
